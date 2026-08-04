@@ -1,0 +1,10 @@
+<html>
+<body>
+  <div id="content">Not authorized</div>
+  <script>
+    if (localStorage.getItem('token') === 'tok-abc123') {
+      document.getElementById('content').textContent = 'Dashboard: secret data';
+    }
+  </script>
+</body>
+</html>

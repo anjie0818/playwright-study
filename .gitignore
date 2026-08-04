@@ -1,0 +1,14 @@
+# Java
+java/target/
+java/playwright/.auth/
+*.iml
+
+# Node.js
+node/node_modules/
+node/test-results/
+node/playwright-report/
+node/playwright/.cache/
+node/.env
+
+# General
+.DS_Store

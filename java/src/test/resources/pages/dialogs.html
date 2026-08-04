@@ -1,0 +1,9 @@
+<html>
+<body>
+  <button id="btn-alert" onclick="alert('Saved successfully')">Show Alert</button>
+  <button id="btn-confirm" onclick="document.getElementById('result').textContent = confirm('Delete this item?') ? 'confirmed' : 'cancelled'">Show Confirm</button>
+  <button id="btn-prompt" onclick="var name = prompt('What is your name?', 'Guest'); document.getElementById('result').textContent = name ? 'Hello, ' + name : 'No name'">Show Prompt</button>
+  <button id="btn-close" onclick="window.close()">Close</button>
+  <div id="result">--</div>
+</body>
+</html>

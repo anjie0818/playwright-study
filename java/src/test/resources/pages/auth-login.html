@@ -1,0 +1,21 @@
+<html>
+<body>
+  <h1>Login</h1>
+  <label>Username<input id="username" /></label>
+  <label>Password<input id="password" type="password" /></label>
+  <button id="login-btn">Sign in</button>
+  <div id="msg"></div>
+  <script>
+    document.getElementById('login-btn').addEventListener('click', function() {
+      var u = document.getElementById('username').value;
+      var p = document.getElementById('password').value;
+      if (u === 'admin' && p === 'secret') {
+        localStorage.setItem('token', 'tok-abc123');
+        document.getElementById('msg').textContent = 'Welcome, admin!';
+      } else {
+        document.getElementById('msg').textContent = 'Login failed';
+      }
+    });
+  </script>
+</body>
+</html>
