@@ -1,0 +1,14 @@
+{
+  "name": "playwright-study-node",
+  "version": "1.0.0",
+  "description": "Playwright Node.js 学习项目 — 按官方文档章节逐章实践",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "list": "npx playwright test --list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

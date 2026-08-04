@@ -10,5 +10,8 @@ node/playwright-report/
 node/playwright/.cache/
 node/.env
 
+# Qwen Code
+.qwen/
+
 # General
 .DS_Store
